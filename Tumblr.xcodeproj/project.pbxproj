@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2A2271F3525B94EF655C53 /* Pods_Tumblr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42092756ED1C86DD48FDED3B /* Pods_Tumblr.framework */; };
+		A19E0CEE1E8CD2DD002B9691 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19E0CED1E8CD2DD002B9691 /* PhotoCell.swift */; };
+		A1ABF5391E8CAC5900816C5D /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ABF5381E8CAC5900816C5D /* PhotosViewController.swift */; };
 		A1E17CA21E8CAB2F008E0249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E17CA11E8CAB2F008E0249 /* AppDelegate.swift */; };
-		A1E17CA41E8CAB2F008E0249 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E17CA31E8CAB2F008E0249 /* ViewController.swift */; };
 		A1E17CA71E8CAB2F008E0249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E17CA51E8CAB2F008E0249 /* Main.storyboard */; };
 		A1E17CA91E8CAB2F008E0249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E17CA81E8CAB2F008E0249 /* Assets.xcassets */; };
 		A1E17CAC1E8CAB2F008E0249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E17CAA1E8CAB2F008E0249 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42092756ED1C86DD48FDED3B /* Pods_Tumblr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumblr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5124A6A16ACBC200F39EAF /* Pods-Tumblr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tumblr/Pods-Tumblr.debug.xcconfig"; sourceTree = "<group>"; };
+		A19E0CED1E8CD2DD002B9691 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		A1ABF5381E8CAC5900816C5D /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		A1E17C9E1E8CAB2F008E0249 /* Tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E17CA11E8CAB2F008E0249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1E17CA31E8CAB2F008E0249 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1E17CA61E8CAB2F008E0249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1E17CA81E8CAB2F008E0249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1E17CAB1E8CAB2F008E0249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1E17CAD1E8CAB2F008E0249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0331A59C84D49EB94480BEC /* Pods-Tumblr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tumblr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tumblr/Pods-Tumblr.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2A2271F3525B94EF655C53 /* Pods_Tumblr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9BC6DFDA983DF7F96ECEC2E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F5124A6A16ACBC200F39EAF /* Pods-Tumblr.debug.xcconfig */,
+				D0331A59C84D49EB94480BEC /* Pods-Tumblr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1ABF53A1E8CAC5D00816C5D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1ABF5381E8CAC5900816C5D /* PhotosViewController.swift */,
+				A19E0CED1E8CD2DD002B9691 /* PhotoCell.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		A1E17C951E8CAB2F008E0249 = {
 			isa = PBXGroup;
 			children = (
 				A1E17CA01E8CAB2F008E0249 /* Tumblr */,
 				A1E17C9F1E8CAB2F008E0249 /* Products */,
+				9BC6DFDA983DF7F96ECEC2E8 /* Pods */,
+				CB246B4321846517E6C74349 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,22 @@
 		A1E17CA01E8CAB2F008E0249 /* Tumblr */ = {
 			isa = PBXGroup;
 			children = (
+				A1ABF53A1E8CAC5D00816C5D /* View Controllers */,
 				A1E17CA11E8CAB2F008E0249 /* AppDelegate.swift */,
-				A1E17CA31E8CAB2F008E0249 /* ViewController.swift */,
 				A1E17CA51E8CAB2F008E0249 /* Main.storyboard */,
 				A1E17CA81E8CAB2F008E0249 /* Assets.xcassets */,
 				A1E17CAA1E8CAB2F008E0249 /* LaunchScreen.storyboard */,
 				A1E17CAD1E8CAB2F008E0249 /* Info.plist */,
 			);
 			path = Tumblr;
+			sourceTree = "<group>";
+		};
+		CB246B4321846517E6C74349 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42092756ED1C86DD48FDED3B /* Pods_Tumblr.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1E17CB01E8CAB2F008E0249 /* Build configuration list for PBXNativeTarget "Tumblr" */;
 			buildPhases = (
+				B1EB9822C8DB799B4A8119B0 /* [CP] Check Pods Manifest.lock */,
 				A1E17C9A1E8CAB2F008E0249 /* Sources */,
 				A1E17C9B1E8CAB2F008E0249 /* Frameworks */,
 				A1E17C9C1E8CAB2F008E0249 /* Resources */,
+				4A094D7D2F4D01CC417AA014 /* [CP] Embed Pods Frameworks */,
+				FFD59687D73E337934041B4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +169,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A094D7D2F4D01CC417AA014 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tumblr/Pods-Tumblr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1EB9822C8DB799B4A8119B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD59687D73E337934041B4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tumblr/Pods-Tumblr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1E17C9A1E8CAB2F008E0249 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1E17CA41E8CAB2F008E0249 /* ViewController.swift in Sources */,
 				A1E17CA21E8CAB2F008E0249 /* AppDelegate.swift in Sources */,
+				A19E0CEE1E8CD2DD002B9691 /* PhotoCell.swift in Sources */,
+				A1ABF5391E8CAC5900816C5D /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +347,7 @@
 		};
 		A1E17CB11E8CAB2F008E0249 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F5124A6A16ACBC200F39EAF /* Pods-Tumblr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tumblr/Info.plist;
@@ -272,6 +360,7 @@
 		};
 		A1E17CB21E8CAB2F008E0249 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0331A59C84D49EB94480BEC /* Pods-Tumblr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tumblr/Info.plist;
@@ -301,6 +390,7 @@
 				A1E17CB21E8CAB2F008E0249 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
