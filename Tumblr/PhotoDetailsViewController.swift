@@ -11,16 +11,15 @@ import UIKit
 class PhotoDetailsViewController: UIViewController {
     
     var imageUrl: URL!
+    @IBOutlet weak var myImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        myImageView.setImageWith(imageUrl)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
 

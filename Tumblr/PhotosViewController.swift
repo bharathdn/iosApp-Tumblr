@@ -81,8 +81,6 @@ class PhotosViewController:  UIViewController, UITableViewDataSource, UITableVie
         
         let indexPath = tableView.indexPath(for: sender as! UITableViewCell)!
         
-        print(indexPath.row)
-        
         let post = posts[indexPath.row]
         
         if let photos = post.value(forKeyPath: "photos") as? [NSDictionary] {
@@ -93,6 +91,8 @@ class PhotosViewController:  UIViewController, UITableViewDataSource, UITableVie
         } else {
             print("Error transferring photo url")
         }
+        
+        tableView.deselectRow(at: indexPath, animated:true)
     }
     
     /*
